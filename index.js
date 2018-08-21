@@ -13,7 +13,7 @@ return driver
 
 function deleteFromDriverByKey(driver, key){
 const newdriver = Object.assign({},driver)
-delete newdriver.Sam;
+delete newdriver.key;
 return newdriver;
 }
 
