@@ -7,6 +7,6 @@ return newdriver;
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver,key,value){
-driver = {key:value}
+driver = Object.assign(driver,{key:value})
 return driver
 }
