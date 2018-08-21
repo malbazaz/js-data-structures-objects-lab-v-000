@@ -3,4 +3,5 @@ const driver = {};
 
 function updateDriverWithKeyAndValue(driver,key,value){
   const driver = {key:value};
+  return driver;
 }
