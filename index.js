@@ -12,7 +12,7 @@ return driver
 }
 
 function deleteFromDriverByKey(driver,key){
-let newdriver = Object.assign({},driver)
+const newdriver = Object.assign({},driver)
 delete newdriver.key;
 return newdriver;
 }
