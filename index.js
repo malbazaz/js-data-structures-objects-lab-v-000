@@ -11,7 +11,7 @@ driver = Object.assign(driver,{address:value})
 return driver
 }
 
-function deleteFromDriverByKey(driver, Sam){
+function deleteFromDriverByKey(driver, 'Sam'){
 const newdriver = Object.assign({},driver)
 delete newdriver.Sam;
 return newdriver;
